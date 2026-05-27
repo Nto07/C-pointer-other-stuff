@@ -1,1 +1,1 @@
-Make with vim on cachyos !
+made with vim on cachyos !
