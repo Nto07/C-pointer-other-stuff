@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int grimault(int c, int d){
+int calcul(int c, int d){
 
 int result = c + d; 
 return result;
@@ -12,7 +12,7 @@ int main (void){
 int a = 1;
 int b = 1;
 
-int resulta = grimault(a, b);
+int resulta = calcul(a, b);
 
 printf("%d\n", resulta);
 
@@ -28,7 +28,7 @@ int *i = &h;
 int *j = &g;
 
 printf("g = %d, h = %d ==> g = %d, h = %d", g, h , *i, *j);
-
+	
 
 return 0;
 }
