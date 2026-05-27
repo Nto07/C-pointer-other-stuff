@@ -27,8 +27,12 @@ int h = 1;
 int *i = &h;
 int *j = &g;
 
-printf("g = %d, h = %d ==> g = %d, h = %d", g, h , *i, *j);
-	
+printf("g = %d, h = %d ==> g = %d, h = %d\n", g, h , *i, *j);
+
+int charak = getchar();
+int charal = getchar();
+
+printf("charak = %c, charal = %c\n", charak, charal);
 
 return 0;
 }
